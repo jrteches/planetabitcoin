@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Planeta Bitcoin</title>
+    <link href="https://jrteches.github.io/planetabitcoin/feed.xml" rel="self" />
+    <link href="https://jrteches.github.io/planetabitcoin" />
+    <updated>2020-12-23T20:19:51+01:00</updated>
+    <author>
+        <name>jrtech</name>
+    </author>
+    <id>https://jrteches.github.io/planetabitcoin</id>
+
+    <entry>
+        <title>Glosario de términos</title>
+        <author>
+            <name>jrtech</name>
+        </author>
+        <link href="https://jrteches.github.io/planetabitcoin/glosario-de-terminos.html"/>
+        <id>https://jrteches.github.io/planetabitcoin/glosario-de-terminos.html</id>
+
+        <updated>2020-12-23T20:19:51+01:00</updated>
+            <summary>
+                <![CDATA[
+                     Bitcoin La definición de Bitcoin creo que daría para un libro. Por ahora quédate con esto, no es una definición, es como se acostumbra a usar la palabra en la comunidad. Es un programa informático el cual te permite enviar y recibir bitcoin.&nbsp; Además&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                
+  <div class="post__toc">
+    <h3>Indice</h3>
+    <ul>
+      <li><a href="#bitcoin">Bitcoin</a></li><li><a href="#-monedero--cartera--billetera--wallet">💼 Monedero / Cartera / Billetera / Wallet</a></li><li><a href="#-clave-privada-">🔐 Clave privada 🤫</a></li><li><a href="#-clave-de-recuperacin-">📝 Clave de recuperación 🤫</a></li>
+    </ul>
+  </div>
+  
+
+    <h2 id="bitcoin">
+      Bitcoin
+    </h2>
+
+  <p>
+    La definición de Bitcoin creo que daría para un libro. Por ahora quédate con esto, no es una definición, es como se acostumbra a usar la palabra en la comunidad.
+  </p>
+
+  <ul>
+    <li><strong>Bitcoin</strong> con la B mayúscula se refiere <strong>a la red</strong> de ordenadores que corren el software bitcoin y que estan conectadas entre ellas a través de Internet.</li>
+  </ul>
+
+  <ul>
+    <li><strong>bitcoin, con b minúscula</strong>, se refiere a <strong>la "moneda"</strong> que se transmite de un propietario a otro.</li>
+  </ul>
+<hr class="separator separator--dots" />
+
+    <h2 id="-monedero--cartera--billetera--wallet">
+      💼 Monedero / Cartera / Billetera / Wallet
+    </h2>
+
+  <p>
+    Es un programa informático el cual te permite enviar y recibir bitcoin.&nbsp;
+  </p>
+
+  <p>
+    Además te permite ver tu saldo y un histórico de tus transacciones.&nbsp;
+  </p>
+
+  <p>
+    En realidad se encarga de mantener a salvo tu <a href="#-clave-privada-" class="">clave privada</a> que da acceso a tus bitcoin.
+  </p>
+
+  <p>
+    Puede estar en la nube, en tu móvil, en tu ordenador o en un dispositivo dedicado llamado hardwallet.
+  </p>
+
+  <p class="align-center">
+    <a href="https://bitcoin.org/es/elige-tu-monedero?step=5" target="_blank">Escoge tu monedero Bitcoin</a>
+  </p>
+<hr class="separator separator--dots" />
+
+    <h2 id="-clave-privada-">
+      🔐 Clave privada 🤫
+    </h2>
+
+  <p>
+    Es un número muy largo el cual es la llave de acceso a tu dinero.<br>Es de vital importancia mantenerla privada y nunca compartirla con nadie.<br>Un ejemplo de clave privada sería:
+  </p>
+
+  <p>
+    <code>xprv9tyUQV64JT5qs3RSTJkXCWKMyUgoQp7F3hA1xzG6ZGu6u6Q9VMNjGr67Lctvy5P8oyaYAL9CAWrUE9i6GoNMKUga5biW6Hx4tws2six3b9c</code>
+  </p>
+
+  <p class="msg msg--warning">
+    Nunca deberás compartir con nadie ni publicar en Internet tu clave privada, de hacerlo, cualquier persona podría apoderarse de todos tus bitcoin.
+  </p>
+
+    <blockquote class="blockquote">
+      Por lo general no vas a ver nunca tu clave privada, esta se genera y guarda en tu monedero en el momento de su creación. Lo mas habitual es que veas una clave de recuperación.
+    </blockquote>
+<hr class="separator separator--dots" />
+
+    <h2 id="-clave-de-recuperacin-">
+      📝 Clave de recuperación 🤫
+    </h2>
+
+  <p id="-clave-de-recuperacin-brbrnormalmente-son-12-o-24-palabras-que-debers-anotar-en-el-mismo-orden-que-te-sern-presentadas-brbresas-palabras-son-capaces-de-revelar-tu-clave-privada-xprvhttpswwwnotionsoglosariodetrminos82da28a98abf489f9d12a12be547ca3c-y-por-tanto-quien-tenga-acceso-a-ellas-tiene-acceso-a-tus-bitcoin-como-ves-son-tan-importantes-como-tu-clave-privada-brbrpor-lo-tanto-usa-papel-y-boli-para-anotarlas-no-hagas-capturas-de-pantalla-ni-fotos-de-estas-palabras-y-guarda-ese-papel-en-un-lugar-segurobrbrestas-palabras-te-las-debe-proporcionar-tu-cartera-normalmente-cuando-lo-configuras-por-primera-vezbrbrnunca-debes-introducir-esas-palabras-en-ninguna-pagina-web-en-ninguna-ni-revelrselas-a-nadie-a-nadiebr">
+    Normalmente son <strong>12 o 24 palabras </strong>que deberás anotar en el mismo orden que te serán presentadas. <br>Esas palabras, son capaces de revelar tu <a href="#-clave-privada-">clave privada</a> y por tanto, quien tenga acceso a ellas, tiene acceso a tus bitcoin. Como ves son tan importantes como tu clave privada. <br>Por lo tanto usa papel y boli para anotarlas, no hagas capturas de pantalla ni fotos de estas palabras y guarda ese papel en un lugar seguro.<br>Estas palabras te las debe proporcionar tu cartera, normalmente cuando lo configuras por primera vez.<br>
+  </p>
+
+  <p class="msg msg--warning">
+    <mark>Nunca debes introducir esas palabras en ninguna pagina web (en ninguna) ni revelárselas a nadie (¡a nadie!)</mark>
+  </p>
+
+  <p>
+    Una clave de recuperación se te presentaría de una forma similar a la siguiente:
+  </p>
+<pre class="line-numbers  language-c"><code>1.tele 2.coche 3.casa 4.alto 5.adios 6.correr 7.mar 8.cabeza 9.Italia 10.piscina 11.huevo 12.espejo</code></pre>
+
+  <p class="msg msg--warning">
+    Recuerda que quien tenga acceso a tu clave de recuperación (las 12 o 24 palabras) puede "extraer" tu clave privada y si tengo tu clave privada tengo tus bitcoin. Así que ambas son igual de importantes y debes mantenerlas seguras.
+  </p>
+
+  <p class="msg msg--info">
+    Hacer un par o tres de copias de estas palabras y guárdalas en lugares fisicamente distintos, también es una buena idea.
+  </p>
+
+  <p class="msg msg--success">
+    Tu monedero se encargara de guardar tu clave privada, pero tu debes encargarte de guardar tu clave de recuperación.
+  </p>
+<hr class="separator separator--dots" />
+
+  <p>
+    
+  </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Recursos Bitcoin    </title>
+        <author>
+            <name>jrtech</name>
+        </author>
+        <link href="https://jrteches.github.io/planetabitcoin/recursos-bitcoin.html"/>
+        <id>https://jrteches.github.io/planetabitcoin/recursos-bitcoin.html</id>
+
+        <updated>2020-12-23T19:32:11+01:00</updated>
+            <summary>
+                <![CDATA[
+                    LibrosMastering Bitcoin por Andreas Antonopoulos 
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <h2 class="align-left">Libros</h2>
+<p>Mastering Bitcoin por Andreas Antonopoulos</p>
+<ul>
+<li><a href="https://bitcoinbook.info/wp-content/translations/es/book.pdf" target="_blank" rel="noopener noreferrer">https://bitcoinbook.info/wp-content/translations/es/book.pdf</a> | PDF en Español</li>
+<li><a href="https://bitcoinbook.info/" title="Lectura-tecnica" target="_blank" rel="noopener noreferrer">https://bitcoinbook.info/</a> | Formato físico y demás opciones en:  </li>
+</ul>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
+</feed>
