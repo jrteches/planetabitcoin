@@ -3,7 +3,7 @@
     <title>Planeta Bitcoin</title>
     <link href="https://planetabitcoin.space/feed.xml" rel="self" />
     <link href="https://planetabitcoin.space" />
-    <updated>2020-12-24T13:56:35+01:00</updated>
+    <updated>2020-12-24T15:38:57+01:00</updated>
     <author>
         <name>jrtech</name>
     </author>
@@ -17,11 +17,11 @@
         <link href="https://planetabitcoin.space/glosario-de-terminos.html"/>
         <id>https://planetabitcoin.space/glosario-de-terminos.html</id>
 
-        <updated>2020-12-23T21:11:53+01:00</updated>
+        <updated>2020-12-24T15:27:07+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://planetabitcoin.space/media/posts/2/markus-spiske-466ENaLuhLY-unsplash.jpg" alt="" />
-                     Bitcoin La definición de Bitcoin creo que daría para un libro. Por ahora quédate con esto, no es una definición, es como se acostumbra a usar la palabra en la comunidad. Es un programa informático el cual te permite enviar y recibir bitcoin.&nbsp; Además&hellip;
+                     💼 Monedero / Cartera / Billetera / Wallet Es un programa informático el cual te permite enviar y recibir bitcoin.&nbsp; Además te permite ver tu saldo y un histórico de tus transacciones.&nbsp; En realidad se encarga de mantener a salvo tu clave privada que&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -31,27 +31,10 @@
   <div class="post__toc">
     <h3>Indice</h3>
     <ul>
-      <li><a href="#bitcoin">Bitcoin</a></li><li><a href="#-monedero--cartera--billetera--wallet">💼 Monedero / Cartera / Billetera / Wallet</a></li><li><a href="#-clave-privada-">🔐 Clave privada 🤫</a></li><li><a href="#-clave-de-recuperacin-">📝 Clave de recuperación 🤫</a></li>
+      <li><a href="#-monedero--cartera--billetera--wallet">💼 Monedero / Cartera / Billetera / Wallet</a></li><li><a href="#-clave-privada-">🔐 Clave privada 🤫</a></li><li><a href="#-clave-de-recuperacin-">📝 Clave de recuperación 🤫</a></li>
     </ul>
   </div>
   
-
-    <h2 id="bitcoin">
-      Bitcoin
-    </h2>
-
-  <p>
-    La definición de Bitcoin creo que daría para un libro. Por ahora quédate con esto, no es una definición, es como se acostumbra a usar la palabra en la comunidad.
-  </p>
-
-  <ul>
-    <li><strong>Bitcoin</strong> con la B mayúscula se refiere <strong>a la red</strong> de ordenadores que corren el software bitcoin y que estan conectadas entre ellas a través de Internet.</li>
-  </ul>
-
-  <ul>
-    <li><strong>bitcoin, con b minúscula</strong>, se refiere a <strong>la "moneda"</strong> que se transmite de un propietario a otro.</li>
-  </ul>
-<hr class="separator separator--dots" />
 
     <h2 id="-monedero--cartera--billetera--wallet">
       💼 Monedero / Cartera / Billetera / Wallet
@@ -85,10 +68,7 @@
   <p>
     Es un número muy largo el cual es la llave de acceso a tu dinero.<br>Es de vital importancia mantenerla privada y nunca compartirla con nadie.<br>Un ejemplo de clave privada sería:
   </p>
-
-  <p>
-    <code>xprv9tyUQV64JT5qs3RSTJkXCWKMyUgoQp7F3hA1xzG6ZGu6u6Q9VMNjGr67Lctvy5P8oyaYAL9CAWrUE9i6GoNMKUga5biW6Hx4tws2six3b9c</code>
-  </p>
+<pre class="line-numbers  language-c"><code>xprv9tyUQV64JT5qs3RSTJkXCWKMyUgoQp7F3hA1xzG6ZGu6u6Q9VMNjGr67Lctvy5P8oyaYAL9CAWrUE9i6GoNMKUga5biW6Hx4tws2six3b9c</code></pre>
 
   <p class="msg msg--warning">
     Nunca deberás compartir con nadie ni publicar en Internet tu clave privada, de hacerlo, cualquier persona podría apoderarse de todos tus bitcoin.
@@ -143,19 +123,29 @@
         <link href="https://planetabitcoin.space/recursos-bitcoin.html"/>
         <id>https://planetabitcoin.space/recursos-bitcoin.html</id>
 
-        <updated>2020-12-23T20:57:05+01:00</updated>
+        <updated>2020-12-24T15:38:57+01:00</updated>
             <summary>
                 <![CDATA[
-                    LibrosMastering Bitcoin por Andreas Antonopoulos 
+                    📚 LibrosMastering Bitcoin - Andreas Antopoulos 
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <h2 class="align-left">Libros</h2>
-<p>Mastering Bitcoin por Andreas Antonopoulos</p>
+                <h2 class="align-left">📚 Libros</h2>
+<p><strong>Mastering Bitcoin</strong> - <em>Andreas Antopoulos</em></p>
 <ul>
-<li><a href="https://bitcoinbook.info/wp-content/translations/es/book.pdf" target="_blank" rel="noopener noreferrer">https://bitcoinbook.info/wp-content/translations/es/book.pdf</a> | PDF en Español</li>
-<li><a href="https://bitcoinbook.info/" title="Lectura-tecnica" target="_blank" rel="noopener noreferrer">https://bitcoinbook.info/</a> | Formato físico y demás opciones en:  </li>
+<li><a href="https://bitcoinbook.info/wp-content/translations/es/book.pdf">https://bitcoinbook.info/wp-content/translations/es/book.pdf</a> | <strong>PDF en español.  </strong><span style="text-decoration: underline;">Lectura técnica</span><strong>. </strong><em>El libro más completo que puedes encontrar sobre Bitcoin.</em></li>
+<li><a href="https://bitcoinbook.info/" title="Lectura-tecnica" target="_blank" rel="noopener noreferrer">https://bitcoinbook.info/</a> | <strong>Formato físico y otros idiomas. </strong> </li>
+</ul>
+<hr>
+<h2>📽 Videos</h2>
+<ul>
+<li><a href="https://youtu.be/FYo5E7zT-vM">https://youtu.be/FYo5E7zT-vM</a> | <strong>Bitcoin Basics Workshop</strong> | <em>Conferencia en inglés, de Andreas Antonopoulos</em>. (Si sabes inglés, te recomiendo este video. Es de lo mejor que puedes encontrar)</li>
+</ul>
+<h2>🌐 Webs</h2>
+<ul>
+<li><a href="https://bitcoin.org">https://bitcoin.org</a> | <strong>Página oficial de Bitcoin</strong></li>
+<li><a href="https://bitcoin.org/files/bitcoin-paper/bitcoin_es_latam.pdf" target="_blank" rel="noopener noreferrer">https://bitcoin.org/files/bitcoin-paper/bitcoin_es_latam.pdf</a> | El White Paper original escrito por Satoshi Nakamoto, en español.</li>
 </ul>
 <p> </p>
             ]]>
