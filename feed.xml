@@ -3,7 +3,7 @@
     <title>Planeta Bitcoin</title>
     <link href="https://jrteches.github.io/planetabitcoin/feed.xml" rel="self" />
     <link href="https://jrteches.github.io/planetabitcoin" />
-    <updated>2020-12-24T13:39:52+01:00</updated>
+    <updated>2020-12-24T13:56:35+01:00</updated>
     <author>
         <name>jrtech</name>
     </author>
@@ -314,7 +314,7 @@ Técnicamente hablando, en la red Bitcoin, todas las transacciones se expresan e
         <id>https://jrteches.github.io/planetabitcoin/que-es-bitcoin.html</id>
             <category term="Primeros pasos"/>
 
-        <updated>2020-12-24T13:39:52+01:00</updated>
+        <updated>2020-12-24T13:56:35+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://jrteches.github.io/planetabitcoin/media/posts/13/que-es-bitcoin.png" alt="" />
@@ -356,8 +356,7 @@ Técnicamente hablando, en la red Bitcoin, todas las transacciones se expresan e
 <h2>¿Y ahora que?</h2>
 <p>Como te decía, es mejor experimentar por tu cuenta que es Bitcoin, así que en los siguientes post vamos a centrarnos en la practica, crearemos una cartera, cambiaremos dinero por Bitcoin y te mostrare como lo puedes enviar a otras personas o comprar cosas por Internet o guardarlo de forma segura como una fuente de ahorros.</p>
 <p>Te recomiendo que le eches un vistazo a este video, subtitulado en español, es una gran introducción al Bitcoin del que es el mayor divulgador de esta tecnología Andreas Antonopoulos.</p>
-<figure class="post__video"><video loading="lazy" width="300" height="150" controls="controls" data-mce-fragment="1">
-<source src="&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https:/www.youtube-nocookie.com/embed/l1si5ZWLgy0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;" /></video></figure>
+<div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/l1si5ZWLgy0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div>
 <h3>¿Algo más de información?</h3>
 <ul>
 <li><a href="https://bitcoin.org">https://bitcoin.org</a> | <strong>Página oficial de Bitcoin</strong></li>
