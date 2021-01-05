@@ -3,7 +3,7 @@
     <title>Planeta Bitcoin</title>
     <link href="https://planetabitcoin.space/feed.xml" rel="self" />
     <link href="https://planetabitcoin.space" />
-    <updated>2021-01-05T20:01:28+01:00</updated>
+    <updated>2021-01-05T20:31:25+01:00</updated>
     <author>
         <name>jrtech</name>
     </author>
@@ -649,7 +649,7 @@
         <link href="https://planetabitcoin.space/sobre-esta-web.html"/>
         <id>https://planetabitcoin.space/sobre-esta-web.html</id>
 
-        <updated>2020-12-30T16:16:53+01:00</updated>
+        <updated>2021-01-05T20:31:25+01:00</updated>
             <summary>
                 <![CDATA[
                     ¿Qué es PlanetaBitcoin?Esta pagina web es mi humilde contribución a la comunidad Bitcoin, esta enfocada a personas sin conocimientos previos, pero que tengan curiosidad sobre que es esto del Bitcoin. Por si te lo estas preguntando, no voy a enseñarte nada de trading o como&hellip;
@@ -662,9 +662,9 @@
 <p>Por si te lo estas preguntando, no voy a enseñarte nada de trading o como invertir, básicamente porque no tengo ni idea sobre el tema.</p>
 <p>Mi objetivo con esta web es guiarte a través de una serie de posts a realizar lo siguiente:</p>
 <ul>
-<li>Entender que es Bitcoin, por lo menos a un nivel funcional sin entrar en tecnicismos.</li>
-<li>Como crear tu primer Monedero.</li>
-<li>Comprar tus primeros bitcoin (o una fracción de el).</li>
+<li><a href="https://planetabitcoin.space/que-es-bitcoin.html">Entender que es Bitcoin, por lo menos a un nivel funcional sin entrar en tecnicismos.</a></li>
+<li><a href="https://planetabitcoin.space/como-crear-tu-primera-cartera-bitcoin.html">Como crear tu primer Monedero.</a></li>
+<li><a href="https://planetabitcoin.space/comprar-mis-primeros-bitcoin.html">Comprar tus primeros bitcoin (o una fracción de el).</a></li>
 <li>Almacenar de forma segura tus nuevos bitcoin.</li>
 <li>Enviar y recibir bitcoin.</li>
 <li>Usar bitcoin para comprar cosas en Internet.</li>
