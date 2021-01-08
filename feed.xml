@@ -3,7 +3,7 @@
     <title>Planeta Bitcoin</title>
     <link href="https://planetabitcoin.space/feed.xml" rel="self" />
     <link href="https://planetabitcoin.space" />
-    <updated>2021-01-08T18:28:01+01:00</updated>
+    <updated>2021-01-08T18:59:43+01:00</updated>
     <author>
         <name>jrtech</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://planetabitcoin.space/herramientas-para-mejorar-tu-privacidad.html"/>
         <id>https://planetabitcoin.space/herramientas-para-mejorar-tu-privacidad.html</id>
 
-        <updated>2021-01-08T18:16:07+01:00</updated>
+        <updated>2021-01-08T18:59:43+01:00</updated>
             <summary>
                 <![CDATA[
                     A continuación te dejo una lista de herramientas, la gran mayoría de código abierto y gratuitas, que te ayudaran a mejorar tu privacidad. Tómatelo con calma, con sólo hacer pequeños cambios ya estarás mejorando tu privacidad. No hace falta que lo cambies todo de golpe.
@@ -26,6 +26,7 @@
         <content type="html">
             <![CDATA[
                 <p>A continuación te dejo una lista de herramientas, la gran mayoría de código abierto y gratuitas, que te ayudaran a mejorar tu privacidad.</p>
+<hr>
 <div class="post__toc">
 <h3>Table of Contents</h3>
 <ul>
