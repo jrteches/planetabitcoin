@@ -40,7 +40,7 @@
                    "Post Técnicos"
             ],
             "date_published": "2020-12-30T16:04:03+01:00",
-            "date_modified": "2021-01-17T10:59:36+01:00"
+            "date_modified": "2021-01-17T11:15:11+01:00"
         },
         {
             "id": "https://planetabitcoin.space/glosario-de-terminos.html",
@@ -55,7 +55,7 @@
             "tags": [
             ],
             "date_published": "2020-12-23T19:53:03+01:00",
-            "date_modified": "2021-01-17T10:58:51+01:00"
+            "date_modified": "2021-01-17T11:14:48+01:00"
         },
         {
             "id": "https://planetabitcoin.space/recursos-bitcoin.html",
@@ -132,7 +132,7 @@
             "tags": [
             ],
             "date_published": "2020-11-16T20:08:40+01:00",
-            "date_modified": "2021-01-05T20:31:25+01:00"
+            "date_modified": "2021-01-17T11:14:25+01:00"
         }
     ]
 }
