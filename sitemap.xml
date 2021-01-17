@@ -94,7 +94,7 @@
 </url>
 <url>
 <loc>https://planetabitcoin.space/glosario-de-terminos.html</loc>
-<lastmod>2020-12-24T15:27:07+01:00</lastmod>
+<lastmod>2021-01-17T10:58:51+01:00</lastmod>
 <image:image>
 <image:loc>https://planetabitcoin.space/media/posts/2/markus-spiske-466ENaLuhLY-unsplash.jpg</image:loc>
 <image:title><![CDATA[]]></image:title>
@@ -102,11 +102,15 @@
 </url>
 <url>
 <loc>https://planetabitcoin.space/herramientas-para-mejorar-tu-privacidad.html</loc>
-<lastmod>2021-01-08T18:59:43+01:00</lastmod>
+<lastmod>2021-01-17T10:58:12+01:00</lastmod>
+<image:image>
+<image:loc>https://planetabitcoin.space/media/posts/21/banner-kit-privacidad.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
 </url>
 <url>
 <loc>https://planetabitcoin.space/instalar-un-nodo-pruned-bitcoin-en-un-vps.html</loc>
-<lastmod>2020-12-30T16:11:36+01:00</lastmod>
+<lastmod>2021-01-17T10:59:36+01:00</lastmod>
 <image:image>
 <image:loc>https://planetabitcoin.space/media/posts/20/16oxLBS8FVOvoJGmbOeUU0Q.png</image:loc>
 <image:title><![CDATA[]]></image:title>
@@ -115,9 +119,6 @@
 <image:loc>https://planetabitcoin.space/media/posts/20/16oxLBS8FVOvoJGmbOeUU0Q-2.png</image:loc>
 <image:title><![CDATA[Mi propio nodo (pruned)]]></image:title>
 </image:image>
-</url>
-<url>
-<loc>https://planetabitcoin.space/page/2/</loc>
 </url>
 <url>
 <loc>https://planetabitcoin.space/que-es-bitcoin.html</loc>
@@ -129,7 +130,11 @@
 </url>
 <url>
 <loc>https://planetabitcoin.space/recursos-bitcoin.html</loc>
-<lastmod>2021-01-08T18:28:01+01:00</lastmod>
+<lastmod>2021-01-17T10:50:51+01:00</lastmod>
+<image:image>
+<image:loc>https://planetabitcoin.space/media/posts/1/banner-recursos-bitcoin.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
 </url>
 <url>
 <loc>https://planetabitcoin.space/sobre-esta-web.html</loc>
