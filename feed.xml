@@ -3,7 +3,7 @@
     <title>Planeta Bitcoin</title>
     <link href="https://planetabitcoin.space/feed.xml" rel="self" />
     <link href="https://planetabitcoin.space" />
-    <updated>2021-01-29T17:55:34+01:00</updated>
+    <updated>2021-01-29T18:04:08+01:00</updated>
     <author>
         <name>jrtech</name>
     </author>
@@ -251,7 +251,7 @@
         <id>https://planetabitcoin.space/instalar-un-nodo-pruned-bitcoin-en-un-vps.html</id>
             <category term="Post Técnicos"/>
 
-        <updated>2021-01-17T11:15:11+01:00</updated>
+        <updated>2021-01-29T18:04:08+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://planetabitcoin.space/media/posts/20/16oxLBS8FVOvoJGmbOeUU0Q.png" alt="" />
@@ -265,19 +265,10 @@
 <figure class="post__image post__image--center"><img loading="lazy"  src="https://planetabitcoin.space/media/posts/20/16oxLBS8FVOvoJGmbOeUU0Q-2.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://planetabitcoin.space/media/posts/20/responsive/16oxLBS8FVOvoJGmbOeUU0Q-2-xs.png 300w ,https://planetabitcoin.space/media/posts/20/responsive/16oxLBS8FVOvoJGmbOeUU0Q-2-sm.png 480w ,https://planetabitcoin.space/media/posts/20/responsive/16oxLBS8FVOvoJGmbOeUU0Q-2-md.png 768w"  alt="Mi propio nodo (pruned)" width="708" height="200"></figure>
 <p id="3f44" class="iv iw gp ix b iy tw gr iz ja tx gu jb jc lw jd je jf lx jg jh ji ly jj jk jm dd gh" data-selectable-paragraph="">Una de las formas de contribuir y ayudar a la red Bitcoin es configurando y ejecutando tu propio nodo. Cuantos mas nodos existan, mayor la robustez de la red y mayor la descentralización de la misma.</p>
 <p id="d40c" class="iv iw gp ix b iy ty gr iz ja tz gu jb jc ua jd je jf ub jg jh ji uc jj jk jm dd gh" data-selectable-paragraph="">Lo ideal sería mantener un hardware propio (Raspberry Pi o un PC antiguo) con una copia completa de la cadena de bloques (blockchain) 300GB+ conectado a la red de tu casa.</p>
-<p id="8161" class="iv iw gp ix b iy ty gr iz ja tz gu jb jc ua jd je jf ub jg jh ji uc jj jk jm dd gh" data-selectable-paragraph="">Sin embargo, es perfectamente pos<span id="rmm">i</span>ble, montar un “<em class="jo">pruned bitcoin node</em>” en un VPS con unas especificaciones básicas del estilo <em class="jo">1 vCPU 2GB RAM y 20GB HDD o SDD y 1TB de transferencia de datos (almenos para la descarga inicial de la blockchain)</em></p>
-<p id="141c" class="iv iw gp ix b iy ty gr iz ja tz gu jb jc ua jd je jf ub jg jh ji uc jj jk jm dd gh" data-selectable-paragraph="">Un VPS de estas características te puede costar unos 3,50€ / mes</p>
+<p id="8161" class="iv iw gp ix b iy ty gr iz ja tz gu jb jc ua jd je jf ub jg jh ji uc jj jk jm dd gh" data-selectable-paragraph="">Sin embargo, es perfectamente pos<span id="rmm">i</span>ble, montar un “<em class="jo">pruned bitcoin node</em>” en un VPS con unas especificaciones básicas del estilo <em class="jo">1 vCPU 2GB RAM y 20GB HDD o SDD y 1TB de transferencia de datos (almenos para la descarga inicial de la blockchain). Ten en cuenta que la descarga inicial de la blockchain puede tardar entre 20 y 40 dias en un HDD, y entre 3 y 7 días en un SSD.</em></p>
 <p data-selectable-paragraph=""><em class="jo">Si no dispones de un VPS al final del articulo te dejare un par de empresas donde te permiten alojar nodos bitcoin, pagar con criptomonedas y que no te piden apenas datos personales para crear la cuenta.</em></p>
 <blockquote class="ls lt ud">
 <p id="fa28" class="iv iw jo ix b iy ty gr iz ja tz gu jb jc ua jd je jf ub jg jh ji uc jj jk jm dd gh" data-selectable-paragraph="">El término en español “pruned Bitcoin node”, sería, <strong class="ix cq">nodo bitcoin podado</strong>, es decir un nodo el cual <strong class="ix cq">no</strong> <strong class="ix cq">contiene almacenada una copia completa de todas las transacciones de la cadena de bloques,</strong> por lo contrario, solamente contiene cierta información de cada bloque, lo que nos permite correr un nodo en equipos con poco espacio de almacenamiento, como un VPS o una Raspberry PI. En cuanto a la seguridad y funcionalidad del nodo, no se ve afectada por este hecho.</p>
-<hr></blockquote>
-<p class="n p cn ue uf ug msg msg--info" role="separator"><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);">En esta guía he utilizado un VPS (LXC) con Ubuntu 20.04 Focal Fossa | 1 vCPU | 2GB RAM | 40 GB HDD alojado en </span><a href="https://noez.de/aff.php?aff=375" class="bq lr" rel="noopener nofollow" style="font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);">Noez.de</a></p>
-<blockquote class="ls lt ud">
-<section class="dd gl gm cy gn">
-<div class="n p">
-<div class="aj ak al am an fm ap w"> </div>
-</div>
-</section>
 </blockquote>
 <section class="dd gl gm cy gn">
 <div class="n p">
@@ -431,6 +422,7 @@
 <div class="aj ak al am an fm ap w">
 <h2 id="c6ea" class="ti ia gp av ib gq wf gr gs gt wg gu gv abt wh abu il abv wi abw ip abx wj aby it tv gh">Donde alojar tu VPS</h2>
 <p id="f78b" class="iv iw gp ix b iy tw gr iz ja tx gu jb jc lw jd je jf lx jg jh ji ly jj jk jm dd gh" data-selectable-paragraph="">Si no sabes donde alojar tu VPS te dejo un par de empresas que he probado y me han funcionado bien.</p>
+<p class="msg msg--info" data-selectable-paragraph="">Desconozco si estas empresas han modificado sus políticas de permitir correr un nodo bitcoin en sus VPS. Si tienes dudas por favor contacta con ellos antes. </p>
 <p id="5b26" class="iv iw gp ix b iy ty gr iz ja tz gu jb jc ua jd je jf ub jg jh ji uc jj jk jm dd gh msg msg--info" data-selectable-paragraph=""><em class="jo">Los links a las empresas son de afiliados, esto no significa que les haga publicidad gratis, son empresas donde actualmente tengo servicios contratados y que me funcionan bien y por tanto, puedo recomendarte.</em></p>
 <h3 id="147f" class="va ia gp av ib ic wq ie gs if wr ih gv ii wt ik il im wv io ip iq wx is it wy gh"><a href="https://noez.de/aff.php?aff=375" class="bq lr" rel="noopener nofollow">Noez</a> (https://noez.de)</h3>
 <p id="8625" class="iv iw gp ix b iy tw gr iz ja tx gu jb jc lw jd je jf lx jg jh ji ly jj jk jm dd gh" data-selectable-paragraph="">basada en Alemania, ofrece planes muy atractivos y diferentes opciones de virtualización como LXC, OpenVZ y KVM. Actualmente estoy ejecutando allí mi nodo y no he tenido ningún problema.</p>
