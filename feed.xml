@@ -3,7 +3,7 @@
     <title>Planeta Bitcoin</title>
     <link href="https://planetabitcoin.space/feed.xml" rel="self" />
     <link href="https://planetabitcoin.space" />
-    <updated>2021-01-29T19:07:57+01:00</updated>
+    <updated>2021-02-10T17:28:57+01:00</updated>
     <author>
         <name>jrtech</name>
     </author>
@@ -468,14 +468,14 @@
         </content>
     </entry>
     <entry>
-        <title>Glosario de términos</title>
+        <title>Vocabulario básico</title>
         <author>
             <name>jrtech</name>
         </author>
         <link href="https://planetabitcoin.space/glosario-de-terminos.html"/>
         <id>https://planetabitcoin.space/glosario-de-terminos.html</id>
 
-        <updated>2021-01-17T11:14:48+01:00</updated>
+        <updated>2021-02-10T17:03:51+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://planetabitcoin.space/media/posts/2/markus-spiske-466ENaLuhLY-unsplash.jpg" alt="" />
@@ -489,7 +489,7 @@
   <div class="post__toc">
     <h3>Indice</h3>
     <ul>
-      <li><a href="#-monedero--cartera--billetera--wallet">💼 Monedero / Cartera / Billetera / Wallet</a></li><li><a href="#-clave-privada-">🔐 Clave privada 🤫</a></li><li><a href="#-clave-de-recuperacin-">📝 Clave de recuperación 🤫</a></li>
+      <li><a href="#-monedero--cartera--billetera--wallet">💼 Monedero / Cartera / Billetera / Wallet</a></li><li><a href="#-clave-privada-">🔐 Clave privada 🤫</a></li><li><a href="#-clave-de-recuperacin-">📝 Clave de recuperación 🤫</a></li><li><a href="#-clave-pblica">🔑 Clave pública</a></li><li><a href="#direccin-bitcoin">📮Dirección bitcoin</a></li>
     </ul>
   </div>
   
@@ -542,7 +542,7 @@
     </h2>
 
   <p id="-clave-de-recuperacin-brbrnormalmente-son-12-o-24-palabras-que-debers-anotar-en-el-mismo-orden-que-te-sern-presentadas-brbresas-palabras-son-capaces-de-revelar-tu-clave-privada-xprvhttpswwwnotionsoglosariodetrminos82da28a98abf489f9d12a12be547ca3c-y-por-tanto-quien-tenga-acceso-a-ellas-tiene-acceso-a-tus-bitcoin-como-ves-son-tan-importantes-como-tu-clave-privada-brbrpor-lo-tanto-usa-papel-y-boli-para-anotarlas-no-hagas-capturas-de-pantalla-ni-fotos-de-estas-palabras-y-guarda-ese-papel-en-un-lugar-segurobrbrestas-palabras-te-las-debe-proporcionar-tu-cartera-normalmente-cuando-lo-configuras-por-primera-vezbrbrnunca-debes-introducir-esas-palabras-en-ninguna-pagina-web-en-ninguna-ni-revelrselas-a-nadie-a-nadiebr">
-    Normalmente son <strong>12 o 24 palabras </strong>que deberás anotar en el mismo orden que te serán presentadas. <br>Esas palabras, son capaces de revelar tu <a href="#-clave-privada-">clave privada</a> y por tanto, quien tenga acceso a ellas, tiene acceso a tus bitcoin. Como ves son tan importantes como tu clave privada. <br>Por lo tanto usa papel y boli para anotarlas, no hagas capturas de pantalla ni fotos de estas palabras y guarda ese papel en un lugar seguro.<br>Estas palabras te las debe proporcionar tu cartera, normalmente cuando lo configuras por primera vez.<br>
+    Normalmente son <strong>12 o 24 palabras </strong>que deberás anotar en el mismo orden que te serán presentadas. <br>Esas palabras, son capaces de revelar tu <a href="#-clave-privada-" class="" data-link-popup-id="1608750426012">clave privada</a> y por tanto, quien tenga acceso a ellas, tiene acceso a tus bitcoin. Como ves son tan importantes como tu clave privada. <br>Por lo tanto usa papel y boli para anotarlas, no hagas capturas de pantalla ni fotos de estas palabras y guarda ese papel en un lugar seguro.<br>Estas palabras te las debe proporcionar tu cartera, normalmente cuando lo configuras por primera vez.<br>
   </p>
 
   <p class="msg msg--warning">
@@ -567,8 +567,56 @@
   </p>
 <hr class="separator separator--dots" />
 
+    <h2 id="-clave-pblica">
+      🔑 Clave pública
+    </h2>
+
   <p>
-    
+    Es un numero muy largo que <strong>tiene una relación matemática con tu clave privada</strong>, en este caso, se puede compartir con algún programa informático si fuera necesario, aunque si estas empezando, <strong>es mejor no compartirla</strong>, ya que no es necesario para enviar y recibir dinero.<br><br>Un ejemplo de clave publica sería
+  </p>
+<pre class="line-numbers  language-c"><code>xpub67xpozcx8pe95XVuZLHXZeG6XWXHpGq6Qv5cmNfi7cS5mtjJ2tgypeQbBs2UAR6KECeeMVKZBPLrtJunSDMstweyLXhRgPxdp14sk9tJPW9</code></pre>
+
+  <p class="msg msg--info">
+    No confundas tu clave pública con tu dirección bitcoin. No debes compartir tu clave pública si lo que quieres es recibir bitcoin.
+  </p>
+
+  <p class="msg msg--info">
+    Aunque no es posible deducir tu clave privada a partir de la clave publica (aunque existe una relación entre ellas) Quien tenga acceso a tu clave publica, puede ver un historial de todas tus transacciones, lo cual, es un problema de privacidad que es mejor evitar.
+  </p>
+
+  <p>
+    Para recibir bitcoin deberás compartir tu <strong><a href="#-dirección bitcoin-">dirección bitcoin</a>.</strong>
+  </p>
+<hr class="separator separator--dots" />
+
+    <h2 id="direccin-bitcoin">
+      📮Dirección bitcoin
+    </h2>
+
+  <p>
+    Es otro numero largo que utilizaras para recibir tu dinero, es algo así como tu numero de cuenta, se puede compartir con cualquiera o por ejemplo publicarlo en tu pagina web.<br><br>Un ejemplo de dirección bitcoin sería:
+  </p>
+<pre class="line-numbers  language-c"><code>bc1qs6qf8lqxggwlvysr3s8998rsyc4pqaw3p0kv4n</code></pre>
+
+  <p>
+    Como escribir todo es numero sin equivocarse es algo complejo, lo mas habitual es que veamos la dirección bitcoin codificada en un código QR como el siguiente:
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://planetabitcoin.space/media/posts/2/image.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://planetabitcoin.space/media/posts/2/responsive/image-xs.png 300w ,https://planetabitcoin.space/media/posts/2/responsive/image-sm.png 480w ,https://planetabitcoin.space/media/posts/2/responsive/image-md.png 768w"  height="419" width="416" alt="" />
+      <figcaption>Al escanear el código nos devuelve la dirección bitcoin que hemos visto antes: bc1qs6qf8lqxggwlvysr3s8998rsyc4pqaw3p0kv4n</figcaption>
+    </figure>
+
+  <p>
+    Por lo tanto, si quisieras recibir bitcoin, simplemente enseña tu código QR a la otra persona, para que pueda escanearlo con su monedero y enviarte los fondos.
+  </p>
+
+  <p class="msg msg--warning">
+    Para mejorar tu privacidad es aconsejable crear una dirección nueva para cada transacción. Afortunadamente, tu monedero creara una nueva dirección de forma automática para ti.
+  </p>
+
+  <p class="msg msg--success">
+    Puedes tener tantas direcciones bitcoin como quieras, no hay limite. Tu monedero se encarga de crearlas y generar el código QR correspondiente.
   </p>
             ]]>
         </content>
@@ -581,41 +629,57 @@
         <link href="https://planetabitcoin.space/recursos-bitcoin.html"/>
         <id>https://planetabitcoin.space/recursos-bitcoin.html</id>
 
-        <updated>2021-01-17T10:50:51+01:00</updated>
+        <updated>2021-02-10T17:28:57+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://planetabitcoin.space/media/posts/1/banner-recursos-bitcoin.png" alt="" />
-                    📚 LibrosMastering Bitcoin - Andreas Antopouloshttps://bitcoinbook.info/wp-content/translations/es/book.pdf | PDF en español. Lectura técnica. El libro más completo que puedes encontrar sobre&hellip;
+                    📚 LibrosMastering Bitcoin - Andreas Antonopoulos | Lectura técnicahttps://bitcoinbook.info/wp-content/translations/es/book.pdf | PDF en español. El libro más completo que puedes encontrar&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <img src="https://planetabitcoin.space/media/posts/1/banner-recursos-bitcoin.png" alt="" />
                 <h2 class="align-left">📚 Libros</h2>
-<p><strong>Mastering Bitcoin</strong> - <em>Andreas Antopoulos</em></p>
+<h4><strong>Mastering Bitcoin</strong> - <em>Andreas Antonopoulos </em>| <span style="text-decoration: underline;">Lectura técnica</span></h4>
 <ul>
-<li><a href="https://bitcoinbook.info/wp-content/translations/es/book.pdf">https://bitcoinbook.info/wp-content/translations/es/book.pdf</a> | <strong>PDF en español.  </strong><span style="text-decoration: underline;">Lectura técnica</span><strong>. </strong><em>El libro más completo que puedes encontrar sobre Bitcoin.</em></li>
+<li><a href="https://bitcoinbook.info/wp-content/translations/es/book.pdf">https://bitcoinbook.info/wp-content/translations/es/book.pdf</a> | <strong>PDF en español.  </strong><em>El libro más completo que puedes encontrar sobre Bitcoin.</em></li>
 <li><a href="https://bitcoinbook.info/" title="Lectura-tecnica" target="_blank" rel="noopener noreferrer">https://bitcoinbook.info/</a> | <strong>Formato físico y otros idiomas. </strong> </li>
 </ul>
+<h4><strong>El Internet del dinero</strong> - <em>Andreas Antonopoulos </em>| <span style="text-decoration: underline;">Lectura NO técnica</span>.</h4>
+<ul>
+<li><a href="https://aantonop.com/product/internet-del-dinero-the-internet-of-money-vol1-spanish-ebook/" target="_blank" rel="noopener noreferrer">Volumen 1</a></li>
+<li><a href="https://aantonop.com/product/internet-del-dinero-volumen-2-the-internet-of-money-vol-2-spanish-ebook/">Volumen 2</a></li>
+<li><a href="https://aantonop.com/product/el-internet-del-dinero-volumen-tres-spanish-ebook/" target="_blank" rel="noopener noreferrer">Volumen 3</a></li>
+</ul>
+<h4>The Bitcoin Standard | El Patrón Bitcoin - Saifedean Ammous </h4>
+<ul>
+<li><a href="https://www.amazon.es/patrón-Bitcoin-alternativa-descentralizada-centrales-ebook/dp/B07G4S4S4H/" target="_blank" rel="noopener noreferrer">En Español (Amazon)</a></li>
+<li><a href="https://saifedean.com/thebitcoinstandard/">En ingles</a></li>
+</ul>
 <hr>
-<h2>📽 Videos</h2>
+<p> </p>
+<h2>📽 Videos y canales de Youtube</h2>
 <ul>
 <li><a href="https://youtu.be/FYo5E7zT-vM">https://youtu.be/FYo5E7zT-vM</a> | <strong>Bitcoin Basics Workshop</strong> | <em>Conferencia en inglés, de Andreas Antonopoulos</em>. (Si sabes inglés, te recomiendo este video. Es de lo mejor que puedes encontrar)</li>
+<li>Canal de Youtube <a href="https://www.youtube.com/channel/UC5718dG1BDH0JldYesjrJKQ" target="_blank" rel="noopener noreferrer">Lunaticoin</a> (Podcast)</li>
+<li>Canal de Youtube <a href="https://www.youtube.com/channel/UCOnCge0dmtZnMhCQletlntA" target="_blank" rel="noopener noreferrer">Laboratorio Virtual Bitcoin</a> | Contenido técnico sobre Bitcoin</li>
+<li>Canal de Youtube <a href="https://www.youtube.com/channel/UCJWCJCWOxBYSi5DhCieLOLQ">Andreas Antonopoulos </a>| Un referente en educación sobre Bitcoin (en inglés)</li>
 </ul>
 <h2>🌐 Webs</h2>
 <ul>
 <li><a href="https://bitcoin.org">https://bitcoin.org</a> | <strong>Página oficial de Bitcoin</strong></li>
 <li><a href="https://bitcoin.org/files/bitcoin-paper/bitcoin_es_latam.pdf" target="_blank" rel="noopener noreferrer">https://bitcoin.org/files/bitcoin-paper/bitcoin_es_latam.pdf</a> | El White Paper original escrito por Satoshi Nakamoto, en español.</li>
+<li><a href="https://estudiobitcoin.com" target="_blank" rel="noopener noreferrer">Estudio Bitcoin </a>| Gran cantidad de recursos en español</li>
 </ul>
 <h2>Compra - Venta Bitcoin</h2>
-<h3>🏦 Exchanges (Casas de cambio) Requieren identificación (KYC)</h3>
+<h4>🏦 Exchanges (Casas de cambio) Requieren identificación (KYC)</h4>
 <ul>
 <li><a href="https://www.coinbase.com/es/" target="_blank" rel="noopener noreferrer">Coinbase</a></li>
 <li><a href="https://www.kraken.com/" target="_blank" rel="noopener noreferrer">Kraken</a></li>
 <li><a href="https://www.binance.com/es" target="_blank" rel="noopener noreferrer">Binance</a></li>
 <li><a href="https://www.gemini.com/" target="_blank" rel="noopener noreferrer">Gemini</a></li>
 </ul>
-<h3>🏛 Exchange descentralizado - no requieren identificación (no-KYC)</h3>
+<h4>🏛 Exchange descentralizado - no requieren identificación (no-KYC)</h4>
 <ul>
 <li><a href="https://hodlhodl.com/" target="_blank" rel="noopener noreferrer">hodlhodl</a></li>
 <li><a href="https://bisq.network/" target="_blank" rel="noopener noreferrer">Bisq</a></li>
